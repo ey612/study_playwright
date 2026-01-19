@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## 📌 프로젝트 소개
+이 레포지토리는 Playwright를 처음 접하면서 탐색 목적으로 진행한 학습용 프로젝트입니다.
+인프런 강의를 참고하여 작성했으며, 완성도 높은 테스트 프레임워크 구축보다는 Playwright가 어떤 도구인지 이해하는 것에 목적을 두었습니다.
 
-## Getting Started
+## 🎯 프로젝트 목적
+이 프로젝트는 Playwright를 “제대로 다룬다”기보다는, 다음과 같은 내용을 직접 실행해보며 확인하기 위해 시작했습니다.
 
-First, run the development server:
+- Playwright가 어떤 자동화 테스트 도구인지
+- 어떤 방식으로 테스트를 작성하고 실행하는지
+- 자주 사용되는 기본 명령어와 기능에는 무엇이 있는지
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🔍 확인한 내용
+강의를 따라가며 아래와 같은 Playwright의 기본 요소들을 확인했습니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 기본 테스트 구조 (test, expect)
+- 페이지 이동 (page.goto)
+- 요소 선택 방식 (locator 개념)
+- 사용자 액션 처리 (click, fill 등)
+- 테스트 실행 및 결과 확인
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+본 프로젝트는 기능 검증 시나리오 설계나 테스트 커버리지 확보보다는
+Playwright의 전반적인 사용 흐름을 이해하는 데 초점을 두고 있습니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 학습 방식
+- 인프런 Playwright 강의를 참고하여 코드 작성
+- 단순 복사보다는 각 코드의 역할을 이해하려고 노력
+- 예제 코드를 직접 실행하고 일부 수정하며 동작을 확인
